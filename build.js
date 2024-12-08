@@ -17,16 +17,6 @@ const _ = require("lodash");
  */
 const mandatoryFiles = ["index.md", "latest.md", ["index.jpg", "index.png"]];
 
-const githubIntegrationSchema = z.object({
-  admins: z
-    .array(z.string())
-    .describe(
-      "Integration admins, these are the users that can generate tokens to trigger the integration",
-    ),
-  type: z.literal("github").describe("The type of the integration"),
-  owner: z.string().describe("The owner of the repository"),
-  repo: z.string().describe("The repository name"),
-});
 
 /**
  * Schema for the mod index data at the front-matter of the index.md file
@@ -62,12 +52,6 @@ const indexDataSchema = z.object({
       "The category of the mod, this is used to group mods in the mod browser",
     ),
   license: z.string().describe("The license of the mod"),
-  integration: z
-    .union([githubIntegrationSchema])
-    .optional()
-    .describe(
-      "The integration of the mod, this is used to automatically update the mod",
-    ),
 });
 
 /**

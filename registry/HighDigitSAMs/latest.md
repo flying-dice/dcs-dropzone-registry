@@ -5,7 +5,7 @@ tag: "v2.1.0"
 version: "v2.1.0"
 date: 2024-07-16T12:00:00Z
 assets:
-  - source: HighDigitSAMs_v2_1_0.zip/#/HighDigitSAMs_v2_1_0/Mods/tech/HighDigitSAMs
+  - source: https://github.com/Auranis/HighDigitSAMs/releases/download/v2.1.0/HighDigitSAMs_v2_1_0.zip/#/HighDigitSAMs_v2_1_0/Mods/tech/HighDigitSAMs
     target: Mods\tech\HighDigitSAMs
 ---
 
