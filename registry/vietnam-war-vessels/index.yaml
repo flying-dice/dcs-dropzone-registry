@@ -1,0 +1,53 @@
+homepage: "https://github.com/tspindler-cms/tetet-vwv"
+name: Vietnam War Vessels Mod
+description: A mod that adds Vietnam War AI assets to DCS
+authors:
+  - TeTeT
+tags:
+  - Vietnam War
+  - AI
+category: historical
+license:  Creative Commons Attribution-NonCommercial-ShareAlike license
+latest: 0.9.0
+versions:
+  - releasepage: "https://github.com/tspindler-cms/tetet-vwv/releases/tag/VWV_0.9.0"
+    name: Release
+    version: 0.9.0
+    date: 2024-12-20T12:00:00.000Z
+    assets:
+      - remoteSource: https://tetet.de/dcs/mods/TeTeT%20VietnamWarVessels%200.9.0.zip
+        links: 
+        - source: "TeTeT VietnamWarVessels 0.9.0/TeTeT VWV/mods/aircraft/vwv_A-1"
+          target: "{{DCS_USER_DIR}}/Mods/aircraft/vwv_A-1"
+        - source: "TeTeT VietnamWarVessels 0.9.0/TeTeT VWV/mods/aircraft/vwv_A-5"
+          target: "{{DCS_USER_DIR}}/Mods/aircraft/vwv_A-5"
+        - source: "TeTeT VietnamWarVessels 0.9.0/TeTeT VWV/mods/aircraft/vwv_F-8"
+          target: "{{DCS_USER_DIR}}/Mods/aircraft/vwv_F-8"
+        - source: "TeTeT VietnamWarVessels 0.9.0/TeTeT VWV/mods/aircraft/vwv_H-2"
+          target: "{{DCS_USER_DIR}}/Mods/aircraft/vwv_H-2"
+        - source: "TeTeT VietnamWarVessels 0.9.0/TeTeT VWV/mods/aircraft/vwv_MiG-17"
+          target: "{{DCS_USER_DIR}}/Mods/aircraft/vwv_MiG-17"
+        - source: "TeTeT VietnamWarVessels 0.9.0/TeTeT VWV/mods/aircraft/vwv_MiG-21MF"
+          target: "{{DCS_USER_DIR}}/Mods/aircraft/vwv_MiG-21MF"
+        - source: "TeTeT VietnamWarVessels 0.9.0/TeTeT VWV/mods/aircraft/vwv_O-1"
+          target: "{{DCS_USER_DIR}}/Mods/aircraft/vwv_O-1"
+        - source: "TeTeT VietnamWarVessels 0.9.0/TeTeT VWV/mods/tech/vwv buildings"
+          target: "{{DCS_USER_DIR}}/Mods/tech/vwv buildings"
+        - source: "TeTeT VietnamWarVessels 0.9.0/TeTeT VWV/mods/tech/vwv Main"
+          target: "{{DCS_USER_DIR}}/Mods/tech/vwv Main"
+        - source: "TeTeT VietnamWarVessels 0.9.0/TeTeT VWV/mods/tech/vwv p4 Torpedo Boat"
+          target: "{{DCS_USER_DIR}}/Mods/tech/vwv p4 Torpedo Boat"
+        - source: "TeTeT VietnamWarVessels 0.9.0/TeTeT VWV/mods/tech/vwv PBR MkII"
+          target: "{{DCS_USER_DIR}}/Mods/tech/vwv PBR MkII"
+        - source: "TeTeT VietnamWarVessels 0.9.0/TeTeT VWV/mods/tech/vwv USS Allen M Sumner DD692"
+          target: "{{DCS_USER_DIR}}/Mods/tech/vwv USS Allen M Sumner DD692"
+        - source: "TeTeT VietnamWarVessels 0.9.0/TeTeT VWV/mods/tech/vwv USS Bon Homme Richard CVA-31"
+          target: "{{DCS_USER_DIR}}/Mods/tech/vwv USS Bon Homme Richard CVA-31"
+        - source: "TeTeT VietnamWarVessels 0.9.0/TeTeT VWV/mods/tech/vwv USS Fletcher FRAMII"
+          target: "{{DCS_USER_DIR}}/Mods/tech/vwv USS Fletcher FRAMII"
+        - source: "TeTeT VietnamWarVessels 0.9.0/TeTeT VWV/mods/tech/vwv USS Laffey DD724"
+          target: "{{DCS_USER_DIR}}/Mods/tech/vwv USS Laffey DD724"
+        - source: "TeTeT VietnamWarVessels 0.9.0/TeTeT VWV/mods/tech/vwv USS Maddox DD731"
+          target: "{{DCS_USER_DIR}}/Mods/tech/vwv USS Maddox DD731"
+        - source: "TeTeT VietnamWarVessels 0.9.0/TeTeT VWV/mods/tech/vwv USS The Sullivans DD537"
+          target: "{{DCS_USER_DIR}}/Mods/tech/vwv USS The Sullivans DD537"
