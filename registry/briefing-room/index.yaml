@@ -10,7 +10,7 @@ tags:
   - Tool
 category: Tool
 license: GNU General Public License v3.0
-latest: 0.5.202412.15
+latest: 0.5.202502.02
 versions:
   - releasepage: >-
       https://github.com/DCS-BR-Tools/briefing-room-for-dcs/releases/tag/release-202412.15-241215-081268-12337249131-1
@@ -33,4 +33,15 @@ versions:
       - remoteSource: https://github.com/DCS-BR-Tools/briefing-room-for-dcs/releases/download/release-202410.08-241008-171098-11240268625-1/BriefingRoom-V0.5.202410.08.zip
         links:
           - source: "BriefingRoom-V0.5.202410.08"
+            target: "{{DCS_USER_DIR}}/Tools/BriefingRoom"
+  - releasepage: >-
+      https://github.com/DCS-BR-Tools/briefing-room-for-dcs/releases/tag/release-202502.02-250202-180256-13101171107-1
+    name: Version 0.5.202502.02
+    version: 0.5.202502.02
+    date: 2025-02-02T12:00:00.000Z
+    exePath: "{{DCS_USER_DIR}}/Tools/BriefingRoom/Desktop.exe"
+    assets:
+      - remoteSource: https://github.com/DCS-BR-Tools/briefing-room-for-dcs/releases/download/release-202502.02-250202-180256-13101171107-1/BriefingRoom-V0.5.202502.02.zip
+        links:
+          - source: "BriefingRoom-V0.5.202502.02"
             target: "{{DCS_USER_DIR}}/Tools/BriefingRoom"
