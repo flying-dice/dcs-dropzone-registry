@@ -1,0 +1,24 @@
+homepage: "https://filedn.eu/ldmvNCjOtAfkbhMFc1BTA2f/VSN_html_Links/VSN_MODS.html"
+name: VSN_F105
+description: A free Republic F-105 Thunderchief FC3-based flyable mod for DCS-World
+authors:
+  - VSN (Check ReadMe)
+tags:
+  - Jet
+  - FC3-base
+  - Flyable
+  - SFM
+  - SU27 cockpit
+category: Jet
+license: none (check readMe for redistribution)
+latest: 2.9.10.103
+versions:
+  - releasepage: "https://github.com/PeeJott/F105_FC3/releases/v2.9.10.103"
+    name: VSN_F105 
+    version: 2.9.10.103
+    date: 2025-01-12T12:00:00.000Z
+    assets:
+      - remoteSource: https://github.com/PeeJott/F105_FC3/releases/download/v2.9.10.103/VSN_F105.V.2.9.10.103.FC3.SFM.7z
+        links: 
+        - source: "."
+          target: "{{DCS_USER_DIR}}/Mods/aircraft/VSN_F105"
